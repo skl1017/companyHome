@@ -1,0 +1,78 @@
+html{
+    font-size: 6.25%;
+}
+html body{
+    font-family: "Archivo Narrow";
+    margin: 0px;
+    padding: 0px;
+    font-size: 16rem;
+}
+h1{
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+.orange{
+    color: #e17507;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+#banner{
+    background-image: url(banner.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: ;
+    padding: 30rem 60rem;
+    color: white;
+}
+header  .mobile{
+    display: none;
+}
+header{
+    width: 100%;
+    margin-bottom: 50rem;
+}
+header .logo{
+    font-size: 30rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    flex: 1;
+    font-family: 'Crimson';
+}
+header .content{
+    display: flex;
+}
+header .content .desktop{
+    display: flex;
+    align-items: center;
+}
+header .content .desktop ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+header .content .desktop ul li{
+    margin-inline: 14rem;
+    color:#e17507
+}
+
+#banner .banner-section-cta .content{
+    width: 55%;
+    margin-top: 100rem;
+}
+#banner .striking{
+    font-size: 50rem;
+}
+#banner .description{
+    width: 80%;
+    line-height: 27rem;
+    margin-top: 60rem;
+}
+
