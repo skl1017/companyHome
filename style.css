@@ -5,14 +5,21 @@ html body{
     font-family: "Archivo Narrow";
     margin: 0px;
     padding: 0px;
-    font-size: 16rem;
+    font-size: 18rem;
 }
 h1{
     text-transform: uppercase;
     margin: 0px;
     padding: 0px;
 }
+.highlight{
+    font-weight: bold;
+}
 h2{
+    margin: 0px;
+}
+ul{
+    padding: 0px;
     margin: 0px;
 }
 .orange{
@@ -24,6 +31,7 @@ a{
 }
 p{
     margin: 0px;
+    letter-spacing: 0.5rem;
 }
 li{
     list-style: none;
@@ -64,8 +72,6 @@ header .content .desktop{
 }
 header .content .desktop ul{
     display: flex;
-    padding: 0px;
-    margin: 0px;
 }
 header .content .desktop ul li{
     margin-inline: 14rem;
@@ -86,21 +92,26 @@ header .content .desktop ul li{
     flex-direction:column;
 }
 #banner .description{
-    width: 80%;
+    width: 100%;
     line-height: 27rem;
     margin-top: 25rem;
     margin-bottom: 25rem;
+    text-align: justify;
 }
 .button{
     width: 200rem;
     height: 55rem;
     background-color: #e17507;
-    color: black;
+    color: white;
     font-weight: 900;
     border-radius: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
+    font-size: 22rem;
+    margin-block: 25rem;
+    padding: 2px;
 }
 .button:hover{
     cursor: pointer;
@@ -109,6 +120,9 @@ header .content .desktop ul li{
 .main-content{
     padding: 30rem 7%;
     margin-top: 50rem
+}
+#features-section h1{
+    margin-block: 21.5rem;
 }
 #features-section .orange-bg-box{
     display: flex;
@@ -123,7 +137,9 @@ header .content .desktop ul li{
 #features-section #features{
     display: flex;
     justify-content: space-between;
-    align-items:stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    row-gap: 40px;
 }
 #features-section .content{
     width: 44%;
@@ -131,6 +147,10 @@ header .content .desktop ul li{
 #features-section .content p{
     line-height: 27rem;
 }
+#features-section {
+    margin-bottom: 100rem; ;
+}
+
 
 #images-section .images-container .image-background:nth-of-type(2){
     background-image: url(image-2.png);
@@ -156,7 +176,7 @@ header .content .desktop ul li{
 #images-section .images-container {
     display: grid;
     grid-template: repeat(2, 250px) / repeat(3, 1fr);
-    background-color: black;
+    background-color: red;
   }
 #images-section .images-container .image-container {
     width: 100%;
@@ -164,7 +184,7 @@ header .content .desktop ul li{
     overflow: hidden;
   }
 #images-section .images-container .image-container img{
-    max-height: 135%;
+    max-height: 160%;
     width: auto;
     display: block;
 }
@@ -178,4 +198,93 @@ header .content .desktop ul li{
 }
 #images-section .images-container .image-background .description{
     padding: 5%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 40rem;
+}
+footer #footer-section{
+    display: flex;
+    padding: 30rem 7%;
+    column-gap: 163rem;
+    row-gap: 40rem;
+    line-height: 27rem;
+    flex-wrap: wrap;
+}
+footer nav ul .highlight{
+    text-transform: uppercase;
+    color: #ffffff99;
+    letter-spacing: 2px;
+    margin-bottom: 40rem;
+}
+footer #footer-section li{
+    text-align: left;
+}
+
+footer #footer-section img {
+    -webkit-filter: invert();
+    width : 25rem;
+}
+footer #footer-section li{
+    display: flex;
+    gap: 13rem;
+}
+
+footer #footer-section nav:nth-of-type(3) ul li:nth-of-type(2),
+footer #footer-section nav:nth-of-type(3) ul li:nth-of-type(3){
+    justify-content:space-between;
+    margin-bottom: 10rem;
+    
+}
+
+footer #footer-section nav ul .mark
+{
+    margin-bottom: 15rem;
+    
+}
+
+@media only screen and (max-width: 948px){
+    #banner #banner-section-cta .content{
+        width: 100%;
+    }
+    header .content{
+        flex-direction: column;
+    }
+    header .content .desktop{
+        margin-top: 20rem;
+    }
+    header .content .desktop ul li:nth-of-type(1){
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 737px){
+    #features-section .content{
+        width: 600rem;
+    }
+    #features-section{
+        margin-bottom: 50rem;
+    }
+    #images-section .images-container {
+        grid-template: repeat(3, 1fr) / 1fr;
+        background-color: green;
+    }
+    #images-section .images-container .image-container{
+        display: none;
+    }
+    .main-content{
+        margin-top: 25rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #banner .striking{
+        font-size:25rem;
+    }
+    #banner .button{
+        width: 140rem;
+        height: 47rem;
+    }
 }
