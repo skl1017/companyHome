@@ -12,6 +12,9 @@ h1{
     margin: 0px;
     padding: 0px;
 }
+h2{
+    margin: 0px;
+}
 .orange{
     color: #e17507;
 }
@@ -19,17 +22,23 @@ a{
     text-decoration: none;
     color: inherit;
 }
+p{
+    margin: 0px;
+}
 li{
     list-style: none;
+    text-align: center;
 }
-
+.center{
+    text-align: center;
+}
 #banner{
     background-image: url(banner.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: ;
-    padding: 30rem 60rem;
+    padding: 30rem 7%;
     color: white;
 }
 header  .mobile{
@@ -63,16 +72,110 @@ header .content .desktop ul li{
     color:#e17507
 }
 
-#banner .banner-section-cta .content{
+#banner #banner-section-cta .content{
     width: 55%;
     margin-top: 100rem;
+    display: flex;
+    flex-direction: column;
 }
 #banner .striking{
-    font-size: 50rem;
+    font-size:45rem;
+}
+#banner .description-box{
+    display: flex;
+    flex-direction:column;
 }
 #banner .description{
     width: 80%;
     line-height: 27rem;
-    margin-top: 60rem;
+    margin-top: 25rem;
+    margin-bottom: 25rem;
+}
+.button{
+    width: 200rem;
+    height: 55rem;
+    background-color: #e17507;
+    color: black;
+    font-weight: 900;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    cursor: pointer;
 }
 
+.main-content{
+    padding: 30rem 7%;
+    margin-top: 50rem
+}
+#features-section .orange-bg-box{
+    display: flex;
+    margin-block: 10rem;
+}
+#features-section .orange-bg{
+    height: 4rem;
+    width: 60rem;
+    margin-right: 10rem;
+    background-color: #e17507;
+}
+#features-section #features{
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+}
+#features-section .content{
+    width: 44%;
+}
+#features-section .content p{
+    line-height: 27rem;
+}
+
+#images-section .images-container .image-background:nth-of-type(2){
+    background-image: url(image-2.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#images-section .images-container .image-background:nth-of-type(4){
+    background-image: url(image-4.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#images-section .images-container .image-background:nth-of-type(6){
+    background-image: url(image-6.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#images-section .images-container {
+    display: grid;
+    grid-template: repeat(2, 250px) / repeat(3, 1fr);
+    background-color: black;
+  }
+#images-section .images-container .image-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+#images-section .images-container .image-container img{
+    max-height: 135%;
+    width: auto;
+    display: block;
+}
+#images-section .images-container .image-background{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+}
+#images-section .images-container .image-background .description{
+    padding: 5%;
+}
