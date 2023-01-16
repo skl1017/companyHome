@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,600;0,700;1,400&family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
+<script>
+    function hideNavbar() {
+  var x = document.getElementById("Links");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+  console.log("pipi");
+}
+</script>
 </head>
 
 <body>
@@ -20,6 +31,18 @@
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">About Us</a></li>
                     </ul>
+                </nav>
+                
+                <nav class="mobile">
+                    <a href="javascript:void(0);"  onclick="hideNavbar()"><img src="menu.png" id="hamburger"></a>
+                    <ul id="Links">
+                        <li><a href="#">Mission Statement</a></li>
+                        <li><a href="#">Sales Team</a></li>
+                        <li><a href="#">Investment Team</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+
                 </nav>
             </div>
         </header>
