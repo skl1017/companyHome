@@ -184,7 +184,7 @@ header .content .desktop ul li{
     overflow: hidden;
   }
 #images-section .images-container .image-container img{
-    max-height: 160%;
+    max-height: 220%;
     width: auto;
     display: block;
 }
