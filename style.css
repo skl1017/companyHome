@@ -246,7 +246,7 @@ footer #footer-section nav ul .mark
     
 }
 
-@media only screen and (max-width: 948px){
+@media screen and (max-width: 948px){
     #banner #banner-section-cta .content{
         width: 100%;
     }
@@ -261,7 +261,7 @@ footer #footer-section nav ul .mark
     }
 }
 
-@media only screen and (max-width: 737px){
+@media screen and (max-width: 737px){
     #features-section .content{
         width: 600rem;
     }
@@ -280,7 +280,7 @@ footer #footer-section nav ul .mark
     }
 }
 
-@media only screen and (max-width: 520px){
+@media screen and (max-width: 520px){
     #banner .striking{
         font-size:25rem;
     }
