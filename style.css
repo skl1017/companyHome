@@ -280,7 +280,7 @@ footer #footer-section nav ul .mark
     }
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 520px){
     #banner .striking{
         font-size:25rem;
     }
