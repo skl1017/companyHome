@@ -174,7 +174,6 @@ header .content .desktop ul li{
 #images-section .images-container {
     display: grid;
     grid-template: repeat(2, 250px) / repeat(3, 1fr);
-    background-color: red;
   }
 #images-section .images-container .image-container {
     width: 100%;
