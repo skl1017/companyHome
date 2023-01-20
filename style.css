@@ -1,11 +1,8 @@
-html{
-    font-size: 6.25%;
-}
 html body{
     font-family: "Archivo Narrow";
     margin: 0px;
     padding: 0px;
-    font-size: 18rem;
+    font-size: 18px;
     width: 100%;
 }
 h1{
@@ -32,7 +29,7 @@ a{
 }
 p{
     margin: 0px;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5px;
 }
 li{
     list-style: none;
@@ -46,7 +43,8 @@ li{
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 30rem 7%;
+    margin-bottom: ;
+    padding: 30px 7%;
     color: white;
 }
 header  .mobile{
@@ -54,10 +52,10 @@ header  .mobile{
 }
 header{
     width: 100%;
-    margin-bottom: 50rem;
+    margin-bottom: 50px;
 }
 header .logo{
-    font-size: 30rem;
+    font-size: 30px;
     font-weight: 300;
     text-transform: uppercase;
     flex: 1;
@@ -74,18 +72,18 @@ header .content .desktop ul{
     display: flex;
 }
 header .content .desktop ul li{
-    margin-inline: 14rem;
+    margin-inline: 14px;
     color:#e17507
 }
 
 #banner #banner-section-cta .content{
     width: 55%;
-    margin-top: 100rem;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
 #banner .striking{
-    font-size:45rem;
+    font-size:45px;
 }
 #banner .description-box{
     display: flex;
@@ -93,24 +91,24 @@ header .content .desktop ul li{
 }
 #banner .description{
     width: 100%;
-    line-height: 27rem;
-    margin-top: 25rem;
-    margin-bottom: 25rem;
+    line-height: 27px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-align: justify;
 }
 .button{
-    width: 200rem;
-    height: 55rem;
+    width: 200px;
+    height: 55px;
     background-color: #e17507;
     color: white;
     font-weight: 900;
-    border-radius: 5rem;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-size: 22rem;
-    margin-block: 25rem;
+    font-size: 22px;
+    margin-block: 25px;
     padding: 2px;
 }
 .button:hover{
@@ -118,20 +116,20 @@ header .content .desktop ul li{
 }
 
 .main-content{
-    padding: 30rem 7%;
-    margin-top: 50rem
+    padding: 30px 7%;
+    margin-top: 50px
 }
 #features-section h1{
-    margin-block: 21.5rem;
+    margin-block: 21.5px;
 }
 #features-section .orange-bg-box{
     display: flex;
-    margin-block: 10rem;
+    margin-block: 10px;
 }
 #features-section .orange-bg{
-    height: 4rem;
-    width: 60rem;
-    margin-right: 10rem;
+    height: 4px;
+    width: 60px;
+    margin-right: 10px;
     background-color: #e17507;
 }
 #features-section #features{
@@ -145,10 +143,10 @@ header .content .desktop ul li{
     width: 44%;
 }
 #features-section .content p{
-    line-height: 27rem;
+    line-height: 27px;
 }
 #features-section {
-    margin-bottom: 100rem; ;
+    margin-bottom: 100px; ;
 }
 
 
@@ -203,21 +201,21 @@ header .content .desktop ul li{
 footer{
     background-color: black;
     color: white;
-    margin-top: 40rem;
+    margin-top: 40px;
 }
 footer #footer-section{
     display: flex;
-    padding: 30rem 7%;
-    column-gap: 163rem;
-    row-gap: 40rem;
-    line-height: 27rem;
+    padding: 30px 7%;
+    column-gap: 163px;
+    row-gap: 40px;
+    line-height: 27px;
     flex-wrap: wrap;
 }
 footer nav ul .highlight{
     text-transform: uppercase;
     color: #ffffff99;
     letter-spacing: 2px;
-    margin-bottom: 40rem;
+    margin-bottom: 40px;
 }
 footer #footer-section li{
     text-align: left;
@@ -225,27 +223,27 @@ footer #footer-section li{
 
 footer #footer-section img {
     -webkit-filter: invert();
-    width : 25rem;
+    width : 25px;
 }
 footer #footer-section li{
     display: flex;
-    gap: 13rem;
+    gap: 13px;
 }
 
 footer #footer-section nav:nth-of-type(3) ul li:nth-of-type(2),
 footer #footer-section nav:nth-of-type(3) ul li:nth-of-type(3){
     justify-content:space-between;
-    margin-bottom: 10rem;
+    margin-bottom: 10px;
     
 }
 
 footer #footer-section nav ul .mark
 {
-    margin-bottom: 15rem;
+    margin-bottom: 15px;
     
 }
 
-@media screen and (max-width: 948px){
+@media only screen and (max-width: 948px){
     #banner #banner-section-cta .content{
         width: 100%;
     }
@@ -253,19 +251,19 @@ footer #footer-section nav ul .mark
         flex-direction: column;
     }
     header .content .desktop{
-        margin-top: 20rem;
+        margin-top: 20px;
     }
     header .content .desktop ul li:nth-of-type(1){
         margin-left: 0px;
     }
 }
 
-@media screen and (max-width: 737px){
+@media only screen and (max-width: 737px){
     #features-section .content{
-        width: 600rem;
+        width: 600px;
     }
     #features-section{
-        margin-bottom: 50rem;
+        margin-bottom: 50px;
     }
     #images-section .images-container {
         grid-template: repeat(3, 1fr) / 1fr;
@@ -275,28 +273,28 @@ footer #footer-section nav ul .mark
         display: none;
     }
     .main-content{
-        margin-top: 25rem;
+        margin-top: 25px;
     }
 }
 
-@media screen and (max-width: 520px){
+@media only screen and (max-width: 550px){
     #banner .striking{
-        font-size:25rem;
+        font-size:25px;
     }
     #banner .button{
-        width: 140rem;
-        height: 47rem;
+        width: 140px;
+        height: 47px;
     }
     header .content .desktop{
     display: none;
     }
     header{
-        margin-bottom: 0rem;
+        margin-bottom: 0px;
     }
     header  .mobile{
     display: flex;
     flex-direction: column;
-    margin-top: 40rem;
+    margin-top: 40px;
     }
     header  .mobile #hamburger{
     width: 40px;
@@ -306,12 +304,12 @@ footer #footer-section nav ul .mark
         text-align: left;
     }
     #Links{
-        margin-top: 24rem;
+        margin-top: 24px;
         display: none;
-        row-gap: 10rem;
+        row-gap: 10px;
         flex-direction: column;
     }
     #banner #banner-section-cta .content{
-        margin-top: 50rem;
+        margin-top: 50px;
     }
 }
